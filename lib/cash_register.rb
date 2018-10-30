@@ -15,6 +15,8 @@ class CashRegister
   end 
   
   def apply_discount
+    @total * 0.80
+    puts "Congrats"
   end 
   
   def void_last_transaction 
